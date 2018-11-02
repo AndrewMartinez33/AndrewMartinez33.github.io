@@ -1,0 +1,238 @@
+:root{
+    --Logo-Green : #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    /* --Text-Font: 'Muli', sans-serif; */
+    --Text-Font: 'Noto Serif', serif;
+    /* --Title-Font:'Arbutus Slab', serif; */
+    --Title-Font:'Prata', serif;
+    --BG-Color: #FEFEFA;
+  }
+
+
+
+  .aboutHeaderImg{
+      max-width: 100%;
+      height: auto;
+  }
+
+  #quoteLogo{
+    width: 150px;
+  }
+
+
+  .missionTitle{
+      font-family: var(--Title-Font);
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+  .missionText{
+    font-family: var(--Text-Font);
+    font-size: 1.15em;
+  }
+
+    #aboutTitle{
+        font-family: var(--Title-Font);
+        font-size: 5rem;
+        color: white;
+    }
+    
+    .quoteText{
+        font-family: 'Noto Serif', serif;
+        font-size: 1rem;
+    }
+
+  #missionContainer{
+      height: 100%;
+  }
+
+  #storyHeaderContainer{
+      position: relative;
+      height: 100%;
+      background-color: #ffbbb6;
+  }
+
+
+  #storyHeaderTitleContainer{
+      height: 100%;
+  }
+
+
+#foundersImage{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.aboutMenuText{
+    font-family: var(--Title-Font);
+    font-size: 1.4em;
+    font-weight: bold;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+    margin: 0 5px 0 5px;
+    padding: 0 4px 0 4px;
+}
+
+
+.ourStoryTitle{
+    border-bottom:var(--Light-Green) solid 3px;
+    font-family: var(--Title-Font);
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 15px 0px 10px 0px;
+}
+
+
+.ourStoryText{
+    font-family: var(--Text-Font);
+    font-size: 1em;
+}
+
+#foundersContainer{
+    padding-right: 5px;
+}
+
+.firstContainer{
+    width: 400px;
+    height: 300px;
+    /* background-color: var(--BG-Color); */
+    background-image: url(../images/bg-green.png);
+  }
+
+  .secondContainer{
+    width:400px;
+    height: 300px;
+    background-color: var(--BG-Color);
+    background-image: url(../images/bg-red.png);
+  }
+
+  .thirdContainer{
+    width:400px;
+    height: 300px;
+    background-color: var(--BG-Color);
+    background-image: url(../images/bg-amber.png);
+  }
+
+  .learnMoreTitle{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .learnMoreText{
+    font-family: var(--Text-Font);
+  }
+
+  #backToTop{
+    font-family: var(--Title-Font);
+    font-size: 1.2em;
+  }
+
+  .quoteContainer-blue{
+    font-family: var(--Title-Font);
+    background-color:rgb(70, 150, 255);
+    font-size: 1.15em;
+  }
+
+  .quoteContainer-green{
+    font-family: var(--Title-Font);
+    /* background-color:rgb(121, 173, 72); */
+    background-color: var(--Light-Green);
+    font-size: 1.15em;
+  }
+  .quoteContainer-red{
+    font-family: var(--Title-Font);
+    background-color:#e85a4f;
+    font-size: 1.15em;
+  }
+
+  #aboutDesiTitle{
+    font-family: var(--Title-Font);
+    font-size: 3em;
+    font-weight: bold;
+    background-color: #19A974;
+  }
+
+  .greenFont{
+    font-family: var(--Title-Font);
+    font-size: 1.75em;
+  }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .ourStoryTitle{
+    font-size: 3.5em;
+  }
+  .storyHeaderText{
+    font-size: 1em;
+  }
+
+  #donationsLogo{
+    position: absolute;
+    z-index: -1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    max-width: 100%; 
+    opacity: .04;
+    display: block;
+  }
+  .aboutMenuText{
+    font-size: 1.1rem;
+    margin: 0 8px 0 8px;
+    padding: 0 2px 0 2px;
+}
+    #storyHeaderTitle{
+        font-family: var(--Title-Font);
+        font-size: 4em;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px gray;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .quoteText{
+        font-family: 'Noto Serif', serif;
+        font-size: 1.15rem;
+    }
+
+  .quoteContainer-red{
+    font-size: 1.5em;
+  }
+  .quoteContainer-blue{
+    font-size: 1.5em;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .aboutMenuText{
+        font-size: 1.5rem;
+        margin: 0 15px 0 15px;
+        padding: 0 4px 0 4px;
+    }
+    #storyHeaderTitle{
+        font-family: var(--Title-Font);
+        font-size: 4em;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px gray;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}

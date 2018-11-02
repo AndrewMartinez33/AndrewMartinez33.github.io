@@ -1,0 +1,100 @@
+:root{
+    --Logo-Green : #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    /* --Text-Font: 'Muli', sans-serif; */
+    --Text-Font: 'Noto Serif', serif;
+    --Title-Font:'Prata', serif;
+    --BG-Color: #FEFEFA;
+    --BG-Green: #19A974;
+}
+
+#volunteerTitle{
+    font-family: var(--Title-Font);
+    color: #FFBF00;
+    font-size: 2.5em;
+    padding:0;
+    margin: 0 0 15px 0;
+    /* border-bottom: lightgray solid 1px; */
+}
+
+.volunteerText{
+    font-family: var(--Text-Font);
+}
+
+.dancingFont{
+    font-family: 'Dancing Script', cursive;
+}
+
+.volunteerSubTitle{
+    font-family: var(--Title-Font);
+    font-size: 1.4em;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.volunteerIcons{
+    width: 65px;
+}
+
+.disappear{
+    display: none;
+}
+
+.activeIcon{
+    border-bottom:var(--Logo-Green) solid 3px;
+}
+
+#volunteerButton{
+    position: fixed;
+    bottom: 25px;
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #volunteerTitle{
+        font-size: 3em;
+    }
+    #volunteerSubTitle{
+        font-size: 2em;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .volunteerIcons{
+        width: 100px;
+    }
+    #volunteerTitle{
+        font-size: 3.25em;
+    }
+    #volunteerSubTitle{
+        font-size: 2.25em;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .volunteerIcons{
+        width: 125px;
+    }
+    #volunteerTitle{
+        font-size: 6em;
+    }
+    #volunteerSubTitle{
+        font-size: 3em;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1600px) {
+}

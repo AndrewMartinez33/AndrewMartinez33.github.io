@@ -1,0 +1,122 @@
+:root{
+  --Logo-Green : #38A42C;
+  --Light-Green: #56bb4b;
+  --Lighter-Green: #82D679;
+  --Accent-Red: #E13026;
+  --Accent-Gold: #FFBF00;
+  --Text-Font: 'Muli', sans-serif;
+  /* --Title-Font:'Bitter', serif; */
+  /* --Title-Font:'Abril Fatface', cursive; */
+  /* --Title-Font:'Vidaloka', serif; */
+  /* --Title-Font:'Arbutus Slab', serif; */
+  --Title-Font:'Prata', serif;
+  --BG-Color: #FEFEFA;
+  }
+
+  #chevron{
+    width: 55px;
+  }
+
+  #donationsHeaderContainer{
+    position: absolute;
+    background-image: url(../images/children123-hand.jpg); 
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    margin: 0 0 55px 0;
+    z-index: -999;
+  }
+  #donationsHeaderTitle{
+    font-family: var(--Title-Font);
+    font-size: 5em;
+    font-weight: bold;
+  }
+  
+  .donationsHeaderText{
+    font-family: var(--Title-Font);
+    font-size: 2em;
+    margin: 0 4px 0 4px;
+    padding: 0 2px 0 2px;
+    }
+  
+  #heart{
+    max-width:150px;
+  }
+
+  #donationTopButton{
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+
+  
+  .paypal{
+    width: 90px;
+  }
+
+
+  #whyDonateImg{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .firstContainer{
+    width: 400px;
+    height: 300px;
+  }
+
+  .secondContainer{
+    width:400px;
+    height: 300px;
+  }
+
+  .thirdContainer{
+    width:400px;
+    height: 300px;
+  }
+
+  .learnMoreTitle{
+    font-family: var(--Title-Font);
+  }
+
+  .learnMoreText{
+    font-family: var(--Text-Font);
+  }
+
+  #backToTop{
+    font-family: var(--Title-Font);
+    font-size: 1.2em;
+  }
+  
+  
+  /* ------------------------------------------ */
+  /* -------------- MEDIA QUERIES ------------- */
+  /* ------------------------------------------ */
+  
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+  }
+  
+  @media (min-width: 1400px) {
+  
+  }
+  
+  @media (min-width: 1600px) {
+  
+  }

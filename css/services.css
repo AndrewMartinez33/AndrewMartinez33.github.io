@@ -1,0 +1,92 @@
+:root{
+  --Logo-Green : #38A42C;
+  --Light-Green: #56bb4b;
+  --Lighter-Green: #82D679;
+  --Accent-Red: #E13026;
+  --Accent-Gold: #FFBF00;
+  /* --Text-Font: 'Muli', sans-serif; */
+  --Text-Font: 'Noto Serif', serif;
+  /* --Title-Font:'Arbutus Slab', serif; */
+  --Title-Font:'Prata', serif;
+  --BG-Color: #FEFEFA;
+}
+
+
+.servicesIconsContainers{
+  width: 300px;
+}
+
+.servicesIconImg{
+  width: 100px;
+}
+
+.servicesIconTitle{
+  font-family: var(--Title-Font);
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.servicesIconText{
+  font-family: var(--Text-Font);
+  border-left: var(--Logo-Green) solid 1px;
+}
+
+.servicesTitle{
+  font-family: var(--Title-Font);
+  font-size: 3.15em;
+  color: var(--Logo-Green);
+  opacity: .75;
+}
+
+.servicesText{
+  font-family: var(--Text-Font);
+  font-size: 1.15em;
+}
+
+.servicesHeaderContainer{
+  background: linear-gradient(180deg, #6ABB61, #57c755);
+}
+
+.servicesHeaderTitle{
+  font-family: var(--Title-Font);
+  font-size: 3.5em;
+  color: white;
+}
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+ 
+}
+  
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .servicesTitle{
+    font-size: 4.5em;
+  }
+  .servicesHeaderTitle{
+    font-size: 5em;
+  }   
+}
+  
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .servicesTitle{
+    font-size: 7em;
+  }
+  .servicesHeaderTitle{
+    font-size: 7em;
+  }
+}
+  
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
+  
+@media (min-width: 1600px) {
+  
+}

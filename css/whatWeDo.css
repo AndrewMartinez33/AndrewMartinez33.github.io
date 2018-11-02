@@ -1,0 +1,72 @@
+:root{
+    --Logo-Green : #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    /* --Text-Font: 'Muli', sans-serif; */
+    --Text-Font: 'Noto Serif', serif;
+    /* --Title-Font:'Arbutus Slab', serif; */
+    --Title-Font:'Prata', serif;
+    --BG-Color: #FEFEFA;
+    }
+
+
+#headerWhatWeDo{
+    /* background-color: #6ABB61; */
+}
+
+#headerWhatWeDo h1{
+    font-family: var(--Title-Font);
+    font-size: 3em;
+}
+
+.facebookContainer{
+    background-image: linear-gradient(90deg, #00c6ff, #0072ff)
+}
+
+.instagramContainer{
+    background-image: linear-gradient(90deg,#833ab4, #fd1d1d, #fcb045)
+}
+
+.socialMediaTitle{
+    color: white;
+    font-size: 2em;
+    font-family: var(--Title-Font);
+}
+
+.headerWhatWeDoText{
+    font-family: var(--Text-Font);
+    font-size: 1.1em;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .socialMediaTitle{
+        font-size: 2.5em;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #headerWhatWeDo h1{
+        font-size: 4em;
+    }    
+    .socialMediaTitle{
+        font-size: 3em;
+    }
+}
+  
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+  
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
+  
+@media (min-width: 1600px) {
+  
+}

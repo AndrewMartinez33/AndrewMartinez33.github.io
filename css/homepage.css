@@ -1,0 +1,235 @@
+/* ------------------------------------------ */
+/* --------- DESI VIDEO TOP OF PAGE --------- */
+/* ------------------------------------------ */
+
+:root{
+    --Logo-Green : #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    /* --Text-Font: 'Muli', sans-serif; */
+    --Text-Font: 'Noto Serif', serif;
+    --Title-Font:'Prata', serif;
+    --BG-Color: #FEFEFA;
+}
+
+/* *{
+    border: red solid 1px;
+} */
+
+/* ------------------------------------------ */
+/* --------- DESI VIDEO TOP OF PAGE --------- */
+/* ------------------------------------------ */
+
+#parent-container{
+    position: relative;
+}
+
+#video-container{
+    z-index:-1;
+}
+
+#video{
+    width:100%; 
+    height:100%;
+}
+
+.overlayDiv{
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute; 
+    top: 0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+}
+
+#videoTextContainer{
+    position:absolute; 
+    bottom:16%; 
+    left:0;
+}
+
+#videoTextMobileContainer{
+    font-family: var(--Text-Font);
+    margin: .25em 0 5em 0;
+
+}
+
+#videoTitle{
+    color:white; 
+    font-size:1.6em;
+    font-family: var(--Title-Font);
+    display: inline;
+    font-weight: bolder;
+}
+
+#videoMainText{
+    color:white; 
+    font-size:1em;
+    display: none;
+}
+
+#videoButton{
+    display: none;
+}
+
+
+/* ------------------------------------------ */
+/* ---- MEET THE PEOPLE WE HELP EVERYDAY ---- */
+/* ------------------------------------------ */
+
+.spotlightsContainer{
+    background-color: var(--BG-Color);
+}
+
+.spotlightText{
+    background-color: white;
+}
+
+#peopleHelpTitle{
+    font-family: var(--Title-Font);
+    color: rgb(34, 33, 33);
+    display: inline-block;
+    border-bottom: lightgrey solid 1px;
+    font-size: 3em;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+#peopleHelpSubTitle{
+    font-family: var(--Title-Font);
+    color: var(--Light-Green);
+    font-size: 2em;
+}
+
+.peopleHelpNames{
+    font-family: var(--Title-Font);
+    color: var(--Accent-Red);
+}
+
+.peopleHelpText{
+    font-family: var(--Text-Font);
+
+}
+
+/* ------------------------------------- */
+/* ------------- DESI BLOG ------------- */
+/* ------------------------------------- */
+
+#BlogSectionTitle{
+    font-family: var(--Title-Font);
+    color: rgb(26, 26, 26);
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: lightgrey solid 1px;
+}
+
+#BlogSectionSubTitle{
+    color: var(--Lighter-Green);
+}
+
+.blog-item{
+    margin: 0 0 1em 0;
+}
+
+.blog-title a{
+    font-family: var(--Title-Font);
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.blog-text{
+    font-family: var(--Text-Font);
+}
+
+.blog-image{
+    box-shadow: 2px 2px 5px darkgray;
+}
+
+#blogContainer{
+    background-color: var(--BG-Color);
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* ------------- Insta Feed ------------ */
+/* ------------------------------------- */
+.instaImage{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------------------------------------ */
+/* -------------- MEDIA QUERIES ------------- */
+/* ------------------------------------------ */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #videoTitle{
+        font-size:2.25em;
+        border-bottom: var(--Logo-Green) solid 1px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #videoTextMobileContainer{
+        display: none;
+    }
+    #videoMainText{ 
+        font-size:1em;
+        display: block;
+    }
+    #videoButton{
+        display: block;
+    }
+    
+    #videoTitle{
+        font-weight: bold;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #videoTitle{
+        font-size:3em;
+    }
+    #videoMainText{ 
+        font-size:1.5em;
+        margin: 0 0 50px 0;
+    }
+    #videoTextContainer{
+        position:absolute; 
+        bottom:15%; 
+        left:0;
+    }
+}
+
+@media (min-width: 1600px) {
+    #videoTitle{
+        font-size:3.75em;
+    }
+    #videoMainText{ 
+        font-size:1.75em;
+    }
+
+}

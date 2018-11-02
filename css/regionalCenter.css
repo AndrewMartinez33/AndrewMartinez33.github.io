@@ -1,0 +1,111 @@
+:root{
+	--Logo-Green : #38A42C;
+	--Light-Green: #56bb4b;
+	--Lighter-Green: #82D679;
+	--Accent-Red: #E13026;
+	--Accent-Gold: #FFBF00;
+	/* --Text-Font: 'Muli', sans-serif; */
+	--Text-Font: 'Noto Serif', serif;
+	--Title-Font:'Arbutus Slab', serif;
+	/* --Title-Font:'Prata', serif; */
+	--BG-Color: #FEFEFA;
+	}
+
+	#bridgeImg{
+		width: 175px;
+	}
+
+
+
+	#bridgeTitleContainer{
+		margin: 0;
+		padding: 0;
+	}
+
+	#regionalBridge{
+			width: 300px;
+			opacity: .75;
+	}
+
+	#bridgeHeaderTitle{
+			font-family: var(--Title-Font);
+			color: var(--Logo-Green);
+			font-size: 2em;
+			text-shadow: 1px 1px 3px darkgrey;
+
+	}
+
+	.regionalCenterTitle{
+		font-family: var(--Title-Font);
+	}
+
+	.learnMoreTitle{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .learnMoreText{
+    font-family: var(--Text-Font);
+  }
+
+  .secondContainer{
+	background-image: url(../images/bg-test.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 400px;
+  }
+
+  .firstContainer{
+	background-image: url(../images/bg-amber.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 400px;
+  }
+
+  .thirdContainer{
+	background-image: url(../images/bg-green.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 400px;
+  }
+	/* *{
+		border: red solid 1px;
+	} */
+
+	
+	/* ------------------------------------------ */
+	/* -------------- MEDIA QUERIES ------------- */
+	/* ------------------------------------------ */
+	
+	/* // Small devices (landscape phones, 576px and up) */
+	@media (min-width: 576px) {
+
+	}
+	
+	/* // Medium devices (tablets, 768px and up) */
+	@media (min-width: 768px) {
+		#bridgeHeaderTitle{
+			font-size: 3em;
+		}
+	}
+	
+	/* // Large devices (desktops, 992px and up) */
+	@media (min-width: 992px) {
+		#bridgeHeaderTitle{
+			font-size: 4em;
+		}
+	}
+	
+	/* // Extra large devices (large desktops, 1200px and up) */
+	@media (min-width: 1200px) {
+
+	}
+	
+	@media (min-width: 1400px) {
+	
+	}
+	
+	@media (min-width: 1600px) {
+	
+	}
