@@ -5,7 +5,6 @@
     --Lighter-Green: #82D679;
     --Accent-Red: #E13026;
     --Accent-Gold: #FFBF00;
-    /* --Text-Font: 'Muli', sans-serif; */
     --Text-Font: 'Noto Serif', serif;
     --Title-Font:'Prata', serif;
     --BG-Color: #FEFEFA;
@@ -40,14 +39,9 @@ ul {
     padding: 0;
 }
 
-
-
-
-
 /* ------------------------------------- */
 /* -------------- NAVBAR --------------- */
 /* ------------------------------------- */
-
 nav{
     z-index: 1000;
 }
@@ -96,12 +90,9 @@ nav{
 }
 
 
-
 /* ------------------------------------- */
 /* -------------- FOOTER --------------- */
 /* ------------------------------------- */
-
-
 .content {
     flex: 1 0 auto;
 }
@@ -144,12 +135,10 @@ nav{
 
 #formContainer{
     background-size: 100% auto;
-    box-shadow: 3px 3px 4px lightgray;
     margin-bottom: 3.25em;
     margin-top: 5.25em;
     padding: 0 0 35px 0;
     background-color: var(--BG-Color);
-    border: rgb(233, 233, 233) solid 1px;
 }
 #Check1{
     margin-left: .15em;
@@ -210,21 +199,15 @@ nav{
     z-index: -999;
   }
 
-  /* *{
-      border: red solid 1px;
-  } */
-
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     #bgLogo2 img{
         display: none;
       }
 }
-
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
-
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #formTitle{
@@ -237,7 +220,6 @@ nav{
         font-size: 1em;
     }
 }
-
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .navbarLogo{
@@ -257,6 +239,5 @@ nav{
         font-weight: 500;
     }
 }
-
 @media (min-width: 1600px) {
 }

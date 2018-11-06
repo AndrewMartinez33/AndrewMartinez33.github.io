@@ -1,27 +1,16 @@
-/* ------------------------------------------ */
-/* --------- DESI VIDEO TOP OF PAGE --------- */
-/* ------------------------------------------ */
-
 :root{
     --Logo-Green : #38A42C;
     --Light-Green: #56bb4b;
     --Lighter-Green: #82D679;
     --Accent-Red: #E13026;
     --Accent-Gold: #FFBF00;
-    /* --Text-Font: 'Muli', sans-serif; */
     --Text-Font: 'Noto Serif', serif;
     --Title-Font:'Prata', serif;
     --BG-Color: #FEFEFA;
 }
-
-/* *{
-    border: red solid 1px;
-} */
-
 /* ------------------------------------------ */
 /* --------- DESI VIDEO TOP OF PAGE --------- */
 /* ------------------------------------------ */
-
 #parent-container{
     position: relative;
 }
@@ -53,7 +42,10 @@
 #videoTextMobileContainer{
     font-family: var(--Text-Font);
     margin: .25em 0 5em 0;
+}
 
+#videoMobileText{
+    font-family: var(--Text-Font);
 }
 
 #videoTitle{
@@ -65,6 +57,7 @@
 }
 
 #videoMainText{
+    font-family: var(--Text-Font);
     color:white; 
     font-size:1em;
     display: none;
@@ -154,25 +147,6 @@
     margin-bottom: 1.5em;
 }
 
-
-
-
-
-
-
-
-
-/* ------------------------------------- */
-/* ------------- Insta Feed ------------ */
-/* ------------------------------------- */
-.instaImage{
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-
 /* ------------------------------------------ */
 /* -------------- MEDIA QUERIES ------------- */
 /* ------------------------------------------ */
@@ -228,8 +202,4 @@
     #videoTitle{
         font-size:3.75em;
     }
-    #videoMainText{ 
-        font-size:1.75em;
-    }
-
 }
