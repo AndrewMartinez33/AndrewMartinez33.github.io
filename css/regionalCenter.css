@@ -4,10 +4,8 @@
 	--Lighter-Green: #82D679;
 	--Accent-Red: #E13026;
 	--Accent-Gold: #FFBF00;
-	/* --Text-Font: 'Muli', sans-serif; */
 	--Text-Font: 'Noto Serif', serif;
-	--Title-Font:'Arbutus Slab', serif;
-	/* --Title-Font:'Prata', serif; */
+	--Title-Font:'Prata', serif;
 	--BG-Color: #FEFEFA;
 	}
 
@@ -69,10 +67,6 @@
 	background-repeat: no-repeat;
 	max-width: 400px;
   }
-	/* *{
-		border: red solid 1px;
-	} */
-
 	
 	/* ------------------------------------------ */
 	/* -------------- MEDIA QUERIES ------------- */
