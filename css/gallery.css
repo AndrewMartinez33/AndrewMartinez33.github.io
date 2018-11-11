@@ -9,6 +9,20 @@
     --BG-Color: #FEFEFA;
   }
 
+.carousel{
+    font-family: var(--Title-Font);
+}
+
+#carousel-Title-Text{
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+#caption-Container{
+    height: 95%;
+}
+
 .desi-img {
     max-width: 100%;
     height: auto;
@@ -21,22 +35,28 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    #carousel-Title-Text{
+        font-size: 3em;
+    }
   
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-   
+    #carousel-Title-Text{
+        font-size: 4.5em;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+    #carousel-Title-Text{
+        font-size: 6em;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1600px) {
