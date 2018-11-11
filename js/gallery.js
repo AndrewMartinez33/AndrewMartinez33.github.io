@@ -39,10 +39,13 @@ function loadGallery() {
     let imageDescription;
     let imageText;
     let imageGallery = document.querySelector('#desiGallery');
+    let allImages = document.createElement('div');
+    allImages.setAttribute('class', 'row m-0 p-0');
     
     for (let [key,value] of Object.entries(images)) {
         imageContainer = document.createElement('div');
         imageContainer.setAttribute('class', 'col-6 col-md-4 col-xl-3 p-0');
+        
         imageTemplate = document.createElement('img');
         imageTemplate.setAttribute('id', key);
         imageTemplate.setAttribute('class', 'img-fluid desi-img col-3 p-0');
@@ -55,9 +58,12 @@ function loadGallery() {
         imageDescription.setAttribute('class', 'image-text mb-3 px-2');
         
         imageContainer.appendChild(imageTemplate);
-        imageContainer.appendChild(imageDescription)
-        imageGallery.appendChild(imageContainer);
+        imageContainer.appendChild(imageDescription);
+
+        allImages.appendChild(imageContainer);
     }
+    
+    imageGallery.appendChild(allImages);
 }
 
-window.addEventListener("load", loadGallery);
+window.addEventListener('load', loadGallery);
