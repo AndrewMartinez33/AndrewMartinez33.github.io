@@ -1,0 +1,64 @@
+:root{
+    --Logo-Green : #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    --Text-Font: 'Noto Serif', serif;
+    --Title-Font:'Prata', serif;
+    --BG-Color: #FEFEFA;
+}
+
+#careersHeaderContainer{
+    background-image: url(../images/careers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#careersHeader{
+    font-family: var(--Title-Font);
+    color: white;
+}
+
+#careerSubtitle{
+    font-family: var(--Title-Font);
+    color: var(--Logo-Green);
+}
+
+.careerText{
+    font-family: var(--Text-Font);
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #careersHeader{
+        font-size: 2.5em;
+    }
+}
+  
+  /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #careersHeader{
+        font-size: 3em;
+    }
+    #careerSubtitle{
+        font-size: 3em;
+    }
+}
+  
+  /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #careersHeader{
+        font-size: 4em;
+    }
+}
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+  
+@media (min-width: 1600px) {
+
+}
