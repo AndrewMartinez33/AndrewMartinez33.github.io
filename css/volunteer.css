@@ -16,7 +16,6 @@
     font-size: 2.5em;
     padding:0;
     margin: 0 0 15px 0;
-    /* border-bottom: lightgray solid 1px; */
 }
 
 .volunteerText{
@@ -51,6 +50,36 @@
     bottom: 25px;
 }
 
+.contactFormContainer{
+    background-color: var(--BG-Color);
+}
+
+.contactFormTitle{
+    font-family: var(--Title-Font);
+    font-size: 1.75em;
+}
+
+.contactFormText{
+    font-family: var(--Title-Font);
+    font-size: 1.5em;
+}
+
+#contactFormText{
+    font-family: var(--Title-Font);
+    font-size: 1.25em;
+}
+
+
+.contactHeaderTitle{
+    font-family: var(--Title-Font);
+    font-size: 1.5em;
+}
+
+.contactHeaderHello{
+    font-family: var(--Title-Font);
+    font-size: 2.5em;
+}
+
 
 
 
@@ -61,6 +90,10 @@
     }
     #volunteerSubTitle{
         font-size: 2em;
+    }
+    .contactHeaderHello{
+        font-family: var(--Title-Font);
+        font-size: 3em;
     }
 }
 

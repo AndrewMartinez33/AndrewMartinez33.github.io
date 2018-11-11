@@ -14,9 +14,13 @@
 }
 
 #carousel-Title-Text{
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px black;
+    font-size: 3em;
+    font-family: var(--Title-Font);
+    /* color: var(--Logo-Green); */
+}
+
+.gallery-text{
+    font-family: var(--Text-Font);
 }
 
 #caption-Container{
@@ -25,7 +29,7 @@
 
 .youTubeLink{
     font-family: var(--Title-Font);
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .youTubeImg{
@@ -41,6 +45,7 @@
     font-family: var(--Text-Font);
     color: darkgray
 }
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
