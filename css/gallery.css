@@ -1,0 +1,44 @@
+:root{
+    --Logo-Green : #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    --Text-Font: 'Noto Serif', serif;
+    --Title-Font:'Prata', serif;
+    --BG-Color: #FEFEFA;
+  }
+
+.desi-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    font-family: var(--Text-Font);
+    color: darkgray
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
