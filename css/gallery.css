@@ -23,6 +23,15 @@
     height: 95%;
 }
 
+.youTubeLink{
+    font-family: var(--Title-Font);
+    font-size: 2em;
+}
+
+.youTubeImg{
+    width: 40px;
+}
+
 .desi-img {
     max-width: 100%;
     height: auto;
