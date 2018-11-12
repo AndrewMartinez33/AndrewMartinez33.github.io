@@ -1,0 +1,84 @@
+:root{
+  --Logo-Green : #38A42C;
+  --Light-Green: #56bb4b;
+  --Lighter-Green: #82D679;
+  --Accent-Red: #E13026;
+  --Accent-Gold: #FFBF00;
+  --Text-Font: 'Noto Serif', serif;
+  --Title-Font:'Prata', serif;
+  --BG-Color: #FEFEFA;
+}
+
+.shopTitleContainer{
+  height: 300px;
+  background-image: url(../images/clothes.png );
+  background-size: cover;
+}
+
+.shopTitle{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.whyShop{
+  font-family: var(--Title-Font);
+}
+
+.shopText{
+  font-family: var(--Text-Font);
+}
+
+
+
+.featureText {
+  font-family: var(--Text-Font);
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+}
+
+#shop-feature-1 {
+  background-image: url(../images/feature1.jpg);
+  background-size: cover;
+}
+
+#shop-feature-2 {
+  background-image: url(../images/feature3.jpg);
+  background-size: cover;
+}
+
+#shop-feature-3 {
+  background-image: url(../images/feature2.jpg);
+  background-size: cover;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .shopTitle{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 5em;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
