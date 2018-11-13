@@ -67,6 +67,11 @@
     display: none;
 }
 
+/* INSTAGRAM */
+
+.youTubeImg{
+    width: 50px;
+}
 
 /* ------------------------------------------ */
 /* ---- MEET THE PEOPLE WE HELP EVERYDAY ---- */
@@ -104,6 +109,21 @@
 .peopleHelpText{
     font-family: var(--Text-Font);
 
+}
+
+.calendarContainer{
+    border-left: 1px solid lightgrey;
+}
+
+.calendarTitle{
+    font-family: var(--Title-Font);
+    color: #2196f3;
+    font-size: 2em;
+}
+
+.calendarText{
+    font-family: var(--Text-Font);
+    font-size: 1.25em;
 }
 
 /* ------------------------------------- */
