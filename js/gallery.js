@@ -48,9 +48,10 @@ function loadGallery() {
         
         imageTemplate = document.createElement('img');
         imageTemplate.setAttribute('id', key);
-        imageTemplate.setAttribute('class', 'img-fluid desi-img col-3 p-0');
-        imageTemplate.setAttribute('src', value.src);
+        imageTemplate.setAttribute('class', 'lazy img-fluid desi-img col-3 p-0');
+        imageTemplate.setAttribute('data-src', value.src);
         imageTemplate.setAttribute('alt', value.alt);
+        imageTemplate.setAttribute('src', '../images/DesiServeLogo5.png');
         
         imageDescription = document.createElement('p');
         imageText= document.createTextNode(value.alt);
