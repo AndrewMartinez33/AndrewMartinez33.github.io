@@ -16,7 +16,14 @@
 #carousel-Title-Text{
     font-size: 3em;
     font-family: var(--Title-Font);
-    /* color: var(--Logo-Green); */
+    /* color: var(--Light-Green); */
+}
+
+.gallery-header-link{
+    color: var(--Light-Green);
+    font-family: var(--Text-Font);
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .gallery-text{
