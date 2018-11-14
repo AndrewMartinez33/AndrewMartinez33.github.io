@@ -89,6 +89,18 @@ nav{
     /* font-size: 1em; */
 }
 
+.phoneIcon{
+    display: none;
+}
+
+.spanishButton{
+    font-family: var(--Title-Font);
+    font-size: .85em;
+    padding-right: 5px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
 
 /* ------------------------------------- */
 /* -------------- FOOTER --------------- */
@@ -219,6 +231,13 @@ nav{
     .navbarLogo{
         font-size: 1em;
     }
+}
+
+@media (min-width: 1018px) {
+    .phoneIcon{
+        display: block;
+    }
+
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {

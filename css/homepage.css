@@ -67,6 +67,8 @@
     display: none;
 }
 
+
+
 /* INSTAGRAM */
 
 .youTubeImg{
@@ -108,6 +110,7 @@
 
 .peopleHelpText{
     font-family: var(--Text-Font);
+    font-size: .9em;
 
 }
 
