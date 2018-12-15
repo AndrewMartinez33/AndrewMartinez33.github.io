@@ -62,9 +62,9 @@ nav{
     margin-right: 5px;
 }
 .navBarLogoImg{
-    height: 50px;
-    width: 50px;
-    margin: 0 5px 0 0;
+    height: 40px;
+    width: 40px;
+    margin: 0 2px 0 0;
 }
 
 .navbarLogo:hover{
@@ -72,9 +72,11 @@ nav{
 }
 
 .navLinks{
-    margin: 5px 0 0 0;
+    margin: 5px 0 1px 0;
     font-size: .9em;
 }
+
+
 
 #navbarNavDropdown a:hover{
     color: dimgray;
@@ -140,12 +142,10 @@ nav{
 }
 
 .formTopContainer{ 
-    margin: 0;
-    padding: .15em 1.25em .15em 1.25em;
     background-image: linear-gradient(  var(--Light-Green), var(--Light-Green));
 }
 
-#formContainer{
+.formContainer{
     background-size: 100% auto;
     margin-bottom: 3.25em;
     margin-top: 5.25em;
@@ -211,6 +211,49 @@ nav{
     z-index: -999;
   }
 
+ /* Dropdown Button */
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 16px;
+    /* font-size: 16px; */
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.custom-dropdown {
+    position: relative;
+    display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: block;
+    /* position: absolute; */
+    /* background-color: white; */
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+.custom-dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .custom-dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     #bgLogo2 img{
@@ -231,6 +274,16 @@ nav{
     .navbarLogo{
         font-size: 1em;
     }
+    .custom-dropdown {
+        display: inline-block;
+    }
+    .custom-dropdown:hover .dropdown-content {display: block;}
+    .dropdown-content {
+        background-color: white;
+        position: absolute;
+        display: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
 }
 
 @media (min-width: 1018px) {
@@ -242,7 +295,7 @@ nav{
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .navbarLogo{
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     .socialImageNavx{
         height: 30px;
@@ -251,7 +304,7 @@ nav{
     }
     .navLinks{
         margin: 5px 0 0 0;
-        font-size: 1em;
+        font-size: .95em;
     }
     #formText{
         font-size: 2em;

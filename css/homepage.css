@@ -131,6 +131,24 @@
     font-size: 1.25em;
 }
 
+.firstContainer{
+    width: 320px;
+    height: 350px;
+    background-color: var(--BG-Color);
+    background-image: url(../images/bg-amber.png);
+    background-repeat: no-repeat;
+}
+
+.learnMoreTitle{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.learnMoreText{
+    font-family: var(--Text-Font);
+}
+
 /* ------------------------------------- */
 /* ------------- DESI BLOG ------------- */
 /* ------------------------------------- */
@@ -183,7 +201,7 @@
         border-bottom: var(--Logo-Green) solid 1px;
     }
     .calendarTitle{
-        font-size: 3.5em;
+        font-size: 3em;
     }
     
     .calendarText{
