@@ -1,75 +1,81 @@
 /* CSS VARIABLES */
 
 :root {
-    --Logo-Green: #38a42c;
-    --Light-Green: #56bb4b;
-    --Lighter-Green: #82d679;
-    --Accent-Red: #e13026;
-    --Accent-Gold: #ffbf00;
-    --Text-Font: "Noto Serif", serif;
-    --Title-Font: "Prata", serif;
-    --BG-Color: #fefefa;
+  --Logo-Green: #38a42c;
+  --Light-Green: #56bb4b;
+  --Lighter-Green: #82d679;
+  --Accent-Red: #e13026;
+  --Accent-Gold: #ffbf00;
+  --Text-Font: "Noto Serif", serif;
+  --Title-Font: "Prata", serif;
+  --BG-Color: #fefefa;
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .title-font {
-    font-family: var(--Title-Font);
+  font-family: var(--Title-Font);
 }
 
 .text-font {
-    font-family: var(--Text-Font);
+  font-family: var(--Text-Font);
 }
 
 .logo-green {
-    color: var(--Logo-Green);
+  color: var(--Logo-Green);
 }
 
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
+.highlight-container {
+  width: 200px;
+  height: 150px;
+  font-weight: bold;
 }
 
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: auto;
-    width: 100%;
-    position: absolute;
+.first-highlight-container {
+  background-image: url("../images/bg-amber.png");
+  background-size: cover;
+}
+
+.second-highlight-container {
+  background-image: url("../images/bg-red.png");
+  background-size: cover;
+}
+
+.third-highlight-container {
+  background-image: url("../images/bg-green.png");
+  background-size: cover;
 }
 
 /* ------------------------------------- */
@@ -79,64 +85,64 @@ ul {
 /* ------------------------------------- */
 
 nav {
-    z-index: 1000;
+  z-index: 1000;
 }
 
 .socialImageNavx {
-    height: 25px;
-    width: 25px;
-    margin: 2px 4px 2px 4px;
+  height: 25px;
+  width: 25px;
+  margin: 2px 4px 2px 4px;
 }
 
 .navbarText {
-    font-family: var(--Title-Font);
+  font-family: var(--Title-Font);
 }
 
 .navbarLogo {
-    color: var(--Logo-Green);
-    font-size: 1.25em;
-    /* font-weight: bolder; */
-    margin-right: 5px;
+  color: var(--Logo-Green);
+  font-size: 1.25em;
+  /* font-weight: bolder; */
+  margin-right: 5px;
 }
 
 .navBarLogoImg {
-    height: 40px;
-    width: 40px;
-    margin: 0 2px 0 0;
+  height: 40px;
+  width: 40px;
+  margin: 0 2px 0 0;
 }
 
 .navbarLogo:hover {
-    color: var(--Logo-Green);
+  color: var(--Logo-Green);
 }
 
 .navLinks {
-    margin: 5px 0 1px 0;
-    font-size: 0.9em;
+  margin: 5px 0 1px 0;
+  font-size: 0.9em;
 }
 
 #navbarNavDropdown a:hover {
-    color: dimgray;
+  color: dimgray;
 }
 
 #navbarNavDropdown a {
-    color: black;
+  color: black;
 }
 
 #navbarNavDropdown a button {
-    color: black;
-    /* font-size: 1em; */
+  color: black;
+  /* font-size: 1em; */
 }
 
 .phoneIcon {
-    display: none;
+  display: none;
 }
 
 .spanishButton {
-    font-family: var(--Title-Font);
-    font-size: 0.85em;
-    padding-right: 5px;
-    color: darkgreen;
-    font-weight: bold;
+  font-family: var(--Title-Font);
+  font-size: 0.85em;
+  padding-right: 5px;
+  color: darkgreen;
+  font-weight: bold;
 }
 
 /* ------------------------------------- */
@@ -146,144 +152,144 @@ nav {
 /* ------------------------------------- */
 
 .content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .goldText {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 #emailHelp a {
-    display: inline-block;
-    font-style: italic;
-    font-weight: bold;
+  display: inline-block;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .formInputText {
-    color: rgb(36, 36, 36);
-    font-weight: bold;
+  color: rgb(36, 36, 36);
+  font-weight: bold;
 }
 
 .footerText {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .footerWhiteText {
-    font-family: var(--Text-Font);
-    color: white;
+  font-family: var(--Text-Font);
+  color: white;
 }
 
 .footerWhiteTitle {
-    font-family: var(--Title-Font);
-    color: white;
-    border-bottom: #38a42c solid 1px;
+  font-family: var(--Title-Font);
+  color: white;
+  border-bottom: #38a42c solid 1px;
 }
 
 .formTopContainer {
-    background-image: linear-gradient(var(--Light-Green), var(--Light-Green));
+  background-image: linear-gradient(var(--Light-Green), var(--Light-Green));
 }
 
 .formContainer {
-    background-size: 100% auto;
-    margin-bottom: 3.25em;
-    margin-top: 5.25em;
-    padding: 0 0 35px 0;
-    background-color: var(--BG-Color);
+  background-size: 100% auto;
+  margin-bottom: 3.25em;
+  margin-top: 5.25em;
+  padding: 0 0 35px 0;
+  background-color: var(--BG-Color);
 }
 
 #Check1 {
-    margin-left: 0.15em;
+  margin-left: 0.15em;
 }
 
 #checkAgree {
-    margin-left: 1.25em;
+  margin-left: 1.25em;
 }
 
 .footerCenterContainer {
-    background-image: linear-gradient(#2d3436, #0f0f0f);
+  background-image: linear-gradient(#2d3436, #0f0f0f);
 }
 
 .footerContainers {
-    padding-bottom: 1.25em;
-    padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-top: 1.25em;
 }
 
 #bellLocation {
-    padding: 1em 0 0 0;
+  padding: 1em 0 0 0;
 }
 
 #copyrightFooter {
-    background: black;
-    height: 50px;
-    color: white;
-    padding: 0;
-    margin: 0;
+  background: black;
+  height: 50px;
+  color: white;
+  padding: 0;
+  margin: 0;
 }
 
 #copyright {
-    font-size: 0.75em;
-    padding: 10px 0 0 0;
+  font-size: 0.75em;
+  padding: 10px 0 0 0;
 }
 
 #formTitle {
-    font-size: 2.25em;
-    font-family: var(--Title-Font);
-    color: white;
-    margin-bottom: 0px;
+  font-size: 2.25em;
+  font-family: var(--Title-Font);
+  color: white;
+  margin-bottom: 0px;
 }
 
 #formText {
-    font-size: 1.5em;
-    font-family: var(--Title-Font);
-    color: #2d3436;
-    font-weight: 500;
-    padding: 25px 0 20px 0;
-    margin-bottom: 25px;
-    border-bottom: lightgrey solid 1px;
+  font-size: 1.5em;
+  font-family: var(--Title-Font);
+  color: #2d3436;
+  font-weight: 500;
+  padding: 25px 0 20px 0;
+  margin-bottom: 25px;
+  border-bottom: lightgrey solid 1px;
 }
 
 #bgLogo2 {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: -999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -999;
 }
 
 /* Dropdown Button */
 
 .dropbtn {
-    /* background-color: #4CAF50; */
-    color: white;
-    padding: 16px;
-    /* font-size: 16px; */
-    border: none;
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 16px;
+  /* font-size: 16px; */
+  border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
 
 .custom-dropdown {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
-    display: block;
-    /* position: absolute; */
-    /* background-color: white; */
-    min-width: 160px;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-    z-index: 1;
+  display: block;
+  /* position: absolute; */
+  /* background-color: white; */
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
 
 .dropdown-content a {
-    color: black;
-    /* padding: 12px 16px; */
-    text-decoration: none;
-    display: block;
+  color: black;
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
@@ -293,7 +299,7 @@ nav {
 /* Show the dropdown menu on hover */
 
 .custom-dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -305,87 +311,89 @@ nav {
 /* CONTACT FORM */
 
 .contactFormTitle {
-    font-family: var(--Title-Font);
-    font-size: 1.75em;
+  font-family: var(--Title-Font);
+  font-size: 1.75em;
 }
 
 .contactFormText {
-    font-family: var(--Title-Font);
-    font-size: 1.5em;
+  font-family: var(--Title-Font);
+  font-size: 1.5em;
 }
 
 #contactFormText {
-    font-family: var(--Title-Font);
-    font-size: 1.25em;
+  font-family: var(--Title-Font);
+  font-size: 1.25em;
 }
 
 .contactHeaderHello {
-    font-family: var(--Title-Font);
-    font-size: 4em;
-    color: var(--Lighter-Green);
+  font-family: var(--Title-Font);
+  font-size: 4em;
+  color: var(--Lighter-Green);
 }
 
 @media (min-width: 576px) {
-    #bgLogo2 img {
-        display: none;
-    }
+  #bgLogo2 img {
+    display: none;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    #formTitle {
-        font-size: 3em;
-    }
-    #formText {
-        font-size: 2em;
-    }
-    .navbarLogo {
-        font-size: 1em;
-    }
-    .custom-dropdown {
-        display: inline-block;
-    }
-    .custom-dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .dropdown-content {
-        background-color: white;
-        position: absolute;
-        display: none;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    }
+  #formTitle {
+    font-size: 3em;
+  }
+  #formText {
+    font-size: 2em;
+  }
+  .navbarLogo {
+    font-size: 1em;
+  }
+  .custom-dropdown {
+    display: inline-block;
+  }
+  .custom-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    background-color: white;
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media (min-width: 1018px) {
-    .phoneIcon {
-        display: block;
-    }
+  .phoneIcon {
+    display: block;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .navbarLogo {
-        font-size: 1.25em;
-    }
-    .socialImageNavx {
-        height: 30px;
-        width: 30px;
-        margin: 2px 6px 2px 6px;
-    }
-    .navLinks {
-        margin: 5px 0 0 0;
-        font-size: 0.95em;
-    }
-    #formText {
-        font-size: 2em;
-        font-weight: 500;
-    }
+  .navbarLogo {
+    font-size: 1.25em;
+  }
+  .socialImageNavx {
+    height: 30px;
+    width: 30px;
+    margin: 2px 6px 2px 6px;
+  }
+  .navLinks {
+    margin: 5px 0 0 0;
+    font-size: 0.95em;
+  }
+  #formText {
+    font-size: 2em;
+    font-weight: 500;
+  }
 }
 
-@media (min-width: 1600px) {}
+@media (min-width: 1600px) {
+}
