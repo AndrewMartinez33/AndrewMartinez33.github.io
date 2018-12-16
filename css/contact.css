@@ -1,73 +1,61 @@
-:root{
-    --Logo-Green : #38A42C;
+:root {
+    --Logo-Green: #38A42C;
     --Light-Green: #56bb4b;
     --Lighter-Green: #82D679;
     --Accent-Red: #E13026;
     --Accent-Gold: #FFBF00;
     --Text-Font: 'Noto Serif', serif;
-    --Title-Font:'Prata', serif;
+    --Title-Font: 'Prata', serif;
     --BG-Color: #FEFEFA;
-  }
-
-.contactFormTitle{
-    font-family: var(--Title-Font);
-    font-size: 1.75em;
-    /* font-weight: bold; */
-    /* color: rgb(94, 94, 94); */
-    /* color: var(--Logo-Green); */
-    
 }
 
-.contactFormText{
+.contactFormTitle {
+    font-family: var(--Title-Font);
+    font-size: 1.75em;
+}
+
+.contactFormText {
     font-family: var(--Title-Font);
     font-size: 1.5em;
 }
 
-#contactFormText{
-    /* color: var(--Logo-Green); */
+#contactFormText {
     font-family: var(--Title-Font);
     font-size: 1.25em;
-    /* font-weight: bold; */
 }
 
-
-#contactHeaderContainer{
-    /* background-color: rgb(61, 61, 61); */
+#contactHeaderContainer {
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-image: linear-gradient(180deg, #414345 , #232526); */
     background-image: url(../images/contactImage.png);
     border-bottom: lightgrey solid 1px;
 }
 
-
-#Ela{
+#Ela {
     background-color: var(--BG-Color);
     background-image: url(../images/elac.png);
     background-size: 100%;
 }
 
-#Bell{
+#Bell {
     background-color: var(--BG-Color);
     background-image: url(../images/bellgardens.png);
     background-size: 100%;
 }
 
-.contactFormContainer{
+.contactFormContainer {
     /* background-image: url(../images/bg-blue-1200.png); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #EEF7FF;     */
 }
 
-
-
-#Follow{
+#Follow {
     background-image: url(../images/bg-social.png);
     background-size: cover;
 }
 
-.contactHeaderTitle{
+.contactHeaderTitle {
     /* font-family: 'Dancing Script', cursive; */
     font-family: var(--Title-Font);
     font-size: 1.5em;
@@ -77,43 +65,35 @@
     /* font-weight: bold; */
 }
 
-.contactHeaderHello{
-    /* font-family: 'Dancing Script', cursive; */
+.contactHeaderHello {
     font-family: var(--Title-Font);
     font-size: 4em;
     color: var(--Lighter-Green);
-    /* border: rgb(4, 158, 68) solid 2px; */
-    /* text-shadow: 2px 2px 4px rgb(100, 100, 100); */
-    /* font-weight: bold; */
 }
 
-
-
-.contactInfo{
+.contactInfo {
     /* background-color: white; */
     /* background-image: linear-gradient(180deg, var(--Logo-Green) , rgb(39, 163, 86)); */
     border-top: var(--Logo-Green) solid 10px;
     /* background-color: rgb(68, 68, 68); */
 }
 
-
-.contactImgs{
+.contactImgs {
     max-width: 100%;
     height: auto;
 }
 
-.contactsTitle{
+.contactsTitle {
     font-family: var(--Title-Font);
     font-size: 2em;
 }
 
-.contactsText{
+.contactsText {
     font-family: var(--Text-Font);
     font-size: 1.1em;
 }
 
-
-.firstContainer{
+.firstContainer {
     width: 400px;
     /* background-color: var(--BG-Color); */
     background-image: url(../images/map4.jpg);
@@ -121,66 +101,63 @@
     background-repeat: no-repeat;
 }
 
-.elac{
+.elac {
     width: 150px;
 }
-.secondContainer{
-    width:400px;
+
+.secondContainer {
+    width: 400px;
     /* background-color: var(--BG-Color); */
     background-image: url(../images/map4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-  .thirdContainer{
-    width:400px;
+.thirdContainer {
+    width: 400px;
     /* background-color: var(--BG-Color); */
     /* background-image: url(../images/map3.jpg); */
-  }
+}
 
-  .learnMoreTitle{
+.learnMoreTitle {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 2.25em;
-  }
+}
 
-  .learnMoreText{
+.learnMoreText {
     font-family: var(--Text-Font);
     font-weight: bold;
-
-  }
-
+}
 
 /* // Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
-    .contactFormTitle{
+    .contactFormTitle {
         font-size: 2.5em;
     }
-    .contactHeaderHello{
+    .contactHeaderHello {
         font-size: 4.5em;
     }
 }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-    .contactFormTitle{
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .contactFormTitle {
         font-size: 2.75em;
     }
-    .contactHeaderHello{
+    .contactHeaderHello {
         font-size: 5.5em;
     }
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
+}
 
-  }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-  
-  }
-  
-  @media (min-width: 1600px) {
-  
-  }
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1600px) {}
