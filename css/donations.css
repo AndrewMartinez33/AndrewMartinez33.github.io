@@ -1,167 +1,159 @@
-:root{
-  --Logo-Green : #38A42C;
-  --Light-Green: #56bb4b;
-  --Lighter-Green: #82D679;
-  --Accent-Red: #E13026;
-  --Accent-Gold: #FFBF00;
-  --Text-Font: 'Noto Serif', serif;
-  --Title-Font:'Prata', serif;
-  --BG-Color: #FEFEFA;
-  }
+:root {
+    --Logo-Green: #38A42C;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82D679;
+    --Accent-Red: #E13026;
+    --Accent-Gold: #FFBF00;
+    --Text-Font: 'Noto Serif', serif;
+    --Title-Font: 'Prata', serif;
+    --BG-Color: #FEFEFA;
+}
 
-  #topImg{
+#topImg {
     width: 100%;
     height: auto;
-  }
+}
 
-  #chevron{
+#chevron {
     width: 55px;
-  }
+}
 
-  #chevronText{
+#chevronText {
     font-family: var(--Title-Font);
     color: white;
     font-weight: bold;
     font-size: 1.2em;
-  }
+}
 
-
-  #donationsHeaderTitle{
+#donationsHeaderTitle {
     font-family: var(--Title-Font);
     font-size: 3.5em;
     font-weight: bold;
-  }
-  
-  .donationsHeaderText{
+}
+
+.donationsHeaderText {
     font-family: var(--Title-Font);
     font-weight: bold;
     font-size: 2em;
     margin: 0 4px 0 4px;
     padding: 0 2px 0 2px;
-    }
-  
-  #heart{
-    max-width:150px;
-  }
+}
 
-  #donationTopButton{
+#heart {
+    max-width: 150px;
+}
+
+#donationTopButton {
     margin-bottom: 0;
     margin-top: 30px;
-  }
+}
 
-  
-  .paypal{
+.paypal {
     width: 90px;
-  }
+}
 
-  .quoteText{
+.quoteText {
     font-family: var(--Title-Font);
-    font-size: 1.5rem;
-  }
+    font-size: 1.25rem;
+}
 
-  .quoteContainer-green{
-    background-color:#19A974;
-  }
-  
+.quoteContainer-green {
+    background-color: #19A974;
+}
 
-  .quoteContainer-blue{
-    background-color:rgb(70, 150, 255);
-  }
+.quoteContainer-blue {
+    background-color: rgb(70, 150, 255);
+}
 
-  .quoteContainer-red{
-    background-color:#e85a4f;
-  }
+.quoteContainer-red {
+    background-color: #e85a4f;
+}
 
-  #whyDonateImg{
+#whyDonateImg {
     max-width: 100%;
     height: auto;
-  }
+}
 
-  #whyDonateTitle{
+#whyDonateTitle {
     font-family: var(--Title-Font);
     font-size: 2.5em;
-  }
+}
 
-  .peopleSectionTitle{
+.peopleSectionTitle {
     font-family: var(--Title-Font);
     font-size: 2.5em;
     border-bottom: black solid 1px;
     border-top: var(--Logo-Green) solid 1px;
-  }
+}
 
-  .peopleSectionText{
+.peopleSectionText {
     font-family: var(--Text-Font);
-  }
+}
 
-  .firstContainer{
+.firstContainer {
     width: 400px;
     height: 300px;
     background-image: url(../images/bg-green.png);
-  }
+}
 
-  .secondContainer{
-    width:400px;
+.secondContainer {
+    width: 400px;
     height: 300px;
     background-image: url(../images/bg-red.png);
-  }
+}
 
-  .thirdContainer{
-    width:400px;
+.thirdContainer {
+    width: 400px;
     height: 300px;
     background-image: url(../images/bg-amber.png);
-  }
+}
 
-  .learnMoreTitle{
+.learnMoreTitle {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 2rem;
-  }
+}
 
-  .learnMoreText{
+.learnMoreText {
     font-family: var(--Text-Font);
-  }
+}
 
-  #backToTop{
+#backToTop {
     font-family: var(--Title-Font);
     font-size: 1.2em;
-  }
+}
 
-  .dancingFont{
+.dancingFont {
     font-family: 'Dancing Script', cursive;
 }
-  
-  
-  /* ------------------------------------------ */
-  /* -------------- MEDIA QUERIES ------------- */
-  /* ------------------------------------------ */
-  
-  /* // Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
 
-  }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-    
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
+/* ------------------------------------------ */
 
-  }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    .quoteText{
-      font-family: var(--Title-Font);
-      font-size: 2.5rem;
+/* -------------- MEDIA QUERIES ------------- */
+
+/* ------------------------------------------ */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .quoteText {
+        font-family: var(--Title-Font);
+        font-size: 2.5rem;
     }
-  }
-  
-  @media (min-width: 1400px) {
-  
-  }
-  
-  @media (min-width: 1600px) {
-  
-  }
+}
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1600px) {}

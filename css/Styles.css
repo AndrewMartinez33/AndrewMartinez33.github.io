@@ -83,6 +83,20 @@ ul {
     background-size: cover;
 }
 
+.sponsors-logo {
+    width: 75px;
+    height: 75px;
+}
+
+.supporters-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.list-styling-circle {
+    list-style-type: square;
+}
+
 /* ------------------------------------- */
 
 /* -------------- NAVBAR --------------- */
