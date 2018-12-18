@@ -1,12 +1,12 @@
 :root {
-  --Logo-Green: #38a42c;
-  --Light-Green: #56bb4b;
-  --Lighter-Green: #82d679;
-  --Accent-Red: #e13026;
-  --Accent-Gold: #ffbf00;
-  --Text-Font: "Noto Serif", serif;
-  --Title-Font: "Prata", serif;
-  --BG-Color: #fefefa;
+    --Logo-Green: #38a42c;
+    --Light-Green: #56bb4b;
+    --Lighter-Green: #82d679;
+    --Accent-Red: #e13026;
+    --Accent-Gold: #ffbf00;
+    --Text-Font: "Noto Serif", serif;
+    --Title-Font: "Prata", serif;
+    --BG-Color: #fefefa;
 }
 
 /* ------------------------------------------ */
@@ -16,66 +16,70 @@
 /* ------------------------------------------ */
 
 #parent-container {
-  position: relative;
+    position: relative;
 }
 
 #video-container {
-  z-index: -1;
+    z-index: -1;
+    /* overflow: hidden;
+height: 100vh;
+width: 100%; */
 }
 
 #video {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
 }
 
 .overlayDiv {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  bottom: 5px;
-  left: 0;
-  right: 0;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    position: absolute;
+    top: 0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
 }
 
 #videoTextContainer {
-  position: absolute;
-  bottom: 16%;
-  left: 0;
+    position: absolute;
+    bottom: 16%;
+    left: 0;
 }
 
 #videoTextMobileContainer {
-  font-family: var(--Text-Font);
-  margin: 0.25em 0 5em 0;
+    font-family: var(--Text-Font);
+    margin: 0.25em 0 5em 0;
 }
 
 #videoMobileText {
-  font-family: var(--Text-Font);
+    font-family: var(--Text-Font);
 }
 
 #videoTitle {
-  color: white;
-  font-size: 1.6em;
-  font-family: var(--Title-Font);
-  display: inline;
-  font-weight: bolder;
+    color: white;
+    font-size: 1.6em;
+    font-family: var(--Title-Font);
+    display: inline;
+    font-weight: bolder;
 }
 
 #videoMainText {
-  font-family: var(--Text-Font);
-  color: white;
-  font-size: 1em;
-  display: none;
+    font-family: var(--Text-Font);
+    color: white;
+    font-size: 1em;
+    display: none;
 }
 
 #videoButton {
-  display: none;
+    display: none;
 }
 
 /* INSTAGRAM */
 
 .youTubeImg {
-  width: 50px;
+    width: 50px;
 }
 
 /* ------------------------------------------ */
@@ -85,70 +89,70 @@
 /* ------------------------------------------ */
 
 .spotlightsContainer {
-  background-color: var(--BG-Color);
+    background-color: var(--BG-Color);
 }
 
 .spotlightText {
-  background-color: white;
+    background-color: white;
 }
 
 #peopleHelpTitle {
-  font-family: var(--Title-Font);
-  color: rgb(34, 33, 33);
-  display: inline-block;
-  border-bottom: lightgrey solid 1px;
-  font-size: 3em;
-  padding-bottom: 10px;
-  padding-top: 30px;
+    font-family: var(--Title-Font);
+    color: rgb(34, 33, 33);
+    display: inline-block;
+    border-bottom: lightgrey solid 1px;
+    font-size: 3em;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 #peopleHelpSubTitle {
-  font-family: var(--Title-Font);
-  color: var(--Light-Green);
-  font-size: 2em;
+    font-family: var(--Title-Font);
+    color: var(--Light-Green);
+    font-size: 2em;
 }
 
 .peopleHelpNames {
-  font-family: var(--Title-Font);
-  color: var(--Accent-Red);
+    font-family: var(--Title-Font);
+    color: var(--Accent-Red);
 }
 
 .peopleHelpText {
-  font-family: var(--Text-Font);
-  font-size: 0.9em;
+    font-family: var(--Text-Font);
+    font-size: 0.9em;
 }
 
 .calendarContainer {
-  border-left: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
 }
 
 .calendarTitle {
-  font-family: var(--Title-Font);
-  color: #2196f3;
-  font-size: 2em;
+    font-family: var(--Title-Font);
+    color: #2196f3;
+    font-size: 2em;
 }
 
 .calendarText {
-  font-family: var(--Text-Font);
-  font-size: 1.25em;
+    font-family: var(--Text-Font);
+    font-size: 1.25em;
 }
 
 .firstContainer {
-  width: 320px;
-  height: 350px;
-  background-color: var(--BG-Color);
-  background-image: url(../images/bg-amber.png);
-  background-repeat: no-repeat;
+    width: 320px;
+    height: 350px;
+    background-color: var(--BG-Color);
+    background-image: url(../images/bg-amber.png);
+    background-repeat: no-repeat;
 }
 
 .learnMoreTitle {
-  font-family: "Dancing Script", cursive;
-  font-weight: bold;
-  font-size: 2em;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .learnMoreText {
-  font-family: var(--Text-Font);
+    font-family: var(--Text-Font);
 }
 
 /* ------------------------------------- */
@@ -158,40 +162,40 @@
 /* ------------------------------------- */
 
 #BlogSectionTitle {
-  font-family: var(--Title-Font);
-  color: rgb(26, 26, 26);
-  font-size: 3em;
-  font-weight: bold;
-  border-bottom: lightgrey solid 1px;
+    font-family: var(--Title-Font);
+    color: rgb(26, 26, 26);
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: lightgrey solid 1px;
 }
 
 #BlogSectionSubTitle {
-  color: var(--Lighter-Green);
+    color: var(--Lighter-Green);
 }
 
 .blog-item {
-  margin: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 
 .blog-title a {
-  font-family: var(--Title-Font);
-  color: rgb(26, 26, 26);
-  font-weight: bold;
-  font-size: 1.15em;
+    font-family: var(--Title-Font);
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    font-size: 1.15em;
 }
 
 .blog-text {
-  font-family: var(--Text-Font);
+    font-family: var(--Text-Font);
 }
 
 .blog-image {
-  box-shadow: 2px 2px 5px darkgray;
+    box-shadow: 2px 2px 5px darkgray;
 }
 
 #blogContainer {
-  background-color: var(--BG-Color);
-  padding: 1em 1em 1em 1em;
-  margin-bottom: 1.5em;
+    background-color: var(--BG-Color);
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1.5em;
 }
 
 /* ------------------------------------------ */
@@ -203,66 +207,66 @@
 /* // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-  #videoTitle {
-    font-size: 2.25em;
-    border-bottom: var(--Logo-Green) solid 1px;
-  }
-  .calendarTitle {
-    font-size: 3em;
-  }
-  .calendarText {
-    font-size: 1.75em;
-  }
+    #videoTitle {
+        font-size: 2.25em;
+        border-bottom: var(--Logo-Green) solid 1px;
+    }
+    .calendarTitle {
+        font-size: 3em;
+    }
+    .calendarText {
+        font-size: 1.75em;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  #videoTextMobileContainer {
-    display: none;
-  }
-  #videoMainText {
-    font-size: 1em;
-    display: block;
-  }
-  #videoButton {
-    display: block;
-  }
-  #videoTitle {
-    font-weight: bold;
-  }
+    #videoTextMobileContainer {
+        display: none;
+    }
+    #videoMainText {
+        font-size: 1em;
+        display: block;
+    }
+    #videoButton {
+        display: block;
+    }
+    #videoTitle {
+        font-weight: bold;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-  .calendarTitle {
-    font-size: 2em;
-  }
-  .calendarText {
-    font-size: 1.25em;
-  }
+    .calendarTitle {
+        font-size: 2em;
+    }
+    .calendarText {
+        font-size: 1.25em;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-  #videoTitle {
-    font-size: 3em;
-  }
-  #videoMainText {
-    font-size: 1.5em;
-    margin: 0 0 50px 0;
-  }
-  #videoTextContainer {
-    position: absolute;
-    bottom: 15%;
-    left: 0;
-  }
+    #videoTitle {
+        font-size: 3em;
+    }
+    #videoMainText {
+        font-size: 1.5em;
+        margin: 0 0 50px 0;
+    }
+    #videoTextContainer {
+        position: absolute;
+        bottom: 15%;
+        left: 0;
+    }
 }
 
 @media (min-width: 1600px) {
-  #videoTitle {
-    font-size: 3.75em;
-  }
+    #videoTitle {
+        font-size: 3.75em;
+    }
 }
