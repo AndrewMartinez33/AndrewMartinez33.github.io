@@ -1,12 +1,12 @@
 :root {
-    --Logo-Green: #38a42c;
-    --Light-Green: #56bb4b;
-    --Lighter-Green: #82d679;
-    --Accent-Red: #e13026;
-    --Accent-Gold: #ffbf00;
-    --Text-Font: "Noto Serif", serif;
-    --Title-Font: "Prata", serif;
-    --BG-Color: #fefefa;
+  --Logo-Green: #38a42c;
+  --Light-Green: #56bb4b;
+  --Lighter-Green: #82d679;
+  --Accent-Red: #e13026;
+  --Accent-Gold: #ffbf00;
+  --Text-Font: "Noto Serif", serif;
+  --Title-Font: "Prata", serif;
+  --BG-Color: #fefefa;
 }
 
 /* ------------------------------------------ */
@@ -16,112 +16,113 @@
 /* ------------------------------------------ */
 
 .video-box {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 .test {
-    position: sticky;
-    top: 0;
-    z-index: -10;
+  position: sticky;
+  top: 0;
+  z-index: -10;
 }
 
 .homepage-content {
-    background-color: white;
-    z-index: 9000;
+  background-color: white;
+  z-index: 9000;
 }
 
 #parent-container {
-    position: relative;
+  position: relative;
 }
 
 #video-container {
-    z-index: -1;
-    /* overflow: hidden;
+  z-index: -1;
+  /* overflow: hidden;
 height: 100vh;
 width: 100%; */
 }
 
 #video {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
 }
 
 .overlayDiv {
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 0;
-    bottom: 5px;
-    left: 0;
-    right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  left: 0;
+  right: 0;
 }
 
 .overlayDiv2 {
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAEklEQVQYV2NkQABfRnSOL0wAAA9/AOu1YMc9AAAAAElFTkSuQmCC) repeat;
-    position: absolute;
-    top: 0;
-    bottom: 5px;
-    left: 0;
-    right: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAEklEQVQYV2NkQABfRnSOL0wAAA9/AOu1YMc9AAAAAElFTkSuQmCC)
+    repeat;
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  left: 0;
+  right: 0;
 }
 
 #videoTextContainer {
-    position: absolute;
-    bottom: 16%;
-    left: 0;
+  position: absolute;
+  bottom: 16%;
+  left: 0;
 }
 
 #videoTextMobileContainer {
-    font-family: var(--Text-Font);
-    margin: 0.25em 0 1em 0;
+  font-family: var(--Text-Font);
+  margin: 0.25em 0 1em 0;
 }
 
 #videoMobileText {
-    font-family: var(--Text-Font);
+  font-family: var(--Text-Font);
 }
 
 #videoTitle {
-    color: white;
-    font-size: 1.6em;
-    font-family: var(--Title-Font);
-    display: inline;
-    font-weight: bolder;
+  color: white;
+  font-size: 1.6em;
+  font-family: var(--Title-Font);
+  display: inline;
+  font-weight: bolder;
 }
 
 #videoMainText {
-    font-family: var(--Text-Font);
-    color: white;
-    font-size: 1em;
-    display: none;
+  font-family: var(--Text-Font);
+  color: white;
+  font-size: 1em;
+  display: none;
 }
 
 #videoButton {
-    display: none;
+  display: none;
 }
 
 /* INSTAGRAM */
 
 .youTubeImg {
-    width: 50px;
+  width: 50px;
 }
 
 /* MISSION LOGO */
 
 #mission-logo {
-    width: 35%;
-    height: auto;
+  width: 35%;
+  height: auto;
 }
 
 .mission-font {
-    font-family: var(--Text-Font);
-    font-size: 1.15em;
+  font-family: var(--Text-Font);
+  font-size: 1.15em;
 }
 
 .mission-title {
-    font-family: var(--Title-Font);
-    font-size: 2.25em;
+  font-family: var(--Title-Font);
+  font-size: 2.25em;
 }
 
 /* ------------------------------------------ */
@@ -131,69 +132,69 @@ width: 100%; */
 /* ------------------------------------------ */
 
 .spotlightsContainer {
-    background-color: var(--BG-Color);
+  background-color: var(--BG-Color);
 }
 
 .spotlightText {
-    background-color: white;
+  background-color: white;
 }
 
 #peopleHelpTitle {
-    font-family: var(--Title-Font);
-    color: rgb(34, 33, 33);
-    display: inline-block;
-    border-bottom: lightgrey solid 1px;
-    font-size: 3em;
-    padding-bottom: 10px;
-    padding-top: 30px;
+  font-family: var(--Title-Font);
+  color: rgb(34, 33, 33);
+  display: inline-block;
+  border-bottom: lightgrey solid 1px;
+  font-size: 3em;
+  padding-bottom: 10px;
+  padding-top: 30px;
 }
 
 #peopleHelpSubTitle {
-    font-family: var(--Title-Font);
-    color: var(--Light-Green);
-    font-size: 2em;
+  font-family: var(--Title-Font);
+  color: var(--Light-Green);
+  font-size: 2em;
 }
 
 .peopleHelpNames {
-    font-family: var(--Title-Font);
-    color: var(--Logo-Green);
+  font-family: var(--Title-Font);
+  color: rgb(70, 150, 255);
 }
 
 .peopleHelpText {
-    font-family: var(--Text-Font);
-    font-size: 0.9em;
+  font-family: var(--Text-Font);
+  font-size: 0.9em;
 }
 
 .calendarContainer {
-    border-left: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
 }
 
 .calendarTitle {
-    font-family: var(--Title-Font);
-    font-size: 2em;
+  font-family: var(--Title-Font);
+  font-size: 2em;
 }
 
 .calendarText {
-    font-family: var(--Text-Font);
-    font-size: 1.25em;
+  font-family: var(--Text-Font);
+  font-size: 1.25em;
 }
 
 .firstContainer {
-    width: 320px;
-    height: 400px;
-    background-color: var(--BG-Color);
-    background-image: url(../images/bg-amber.png);
-    background-repeat: no-repeat;
+  width: 320px;
+  height: 400px;
+  background-color: var(--BG-Color);
+  background-image: url(../images/bg-amber.png);
+  background-repeat: no-repeat;
 }
 
 .learnMoreTitle {
-    font-family: "Dancing Script", cursive;
-    font-weight: bold;
-    font-size: 2em;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .learnMoreText {
-    font-family: var(--Text-Font);
+  font-family: var(--Text-Font);
 }
 
 /* ------------------------------------- */
@@ -203,82 +204,82 @@ width: 100%; */
 /* ------------------------------------- */
 
 #BlogSectionTitle {
-    font-family: var(--Title-Font);
-    color: rgb(26, 26, 26);
-    font-size: 3em;
-    font-weight: bold;
-    border-bottom: lightgrey solid 1px;
+  font-family: var(--Title-Font);
+  color: rgb(26, 26, 26);
+  font-size: 3em;
+  font-weight: bold;
+  border-bottom: lightgrey solid 1px;
 }
 
 #BlogSectionSubTitle {
-    color: var(--Lighter-Green);
+  color: var(--Lighter-Green);
 }
 
 .blog-item {
-    margin: 0 0 1em 0;
+  margin: 0 0 1em 0;
 }
 
 .blog-title a {
-    font-family: var(--Title-Font);
-    color: rgb(26, 26, 26);
-    font-weight: bold;
-    font-size: 1.15em;
+  font-family: var(--Title-Font);
+  color: rgb(26, 26, 26);
+  font-weight: bold;
+  font-size: 1.15em;
 }
 
 .blog-text {
-    font-family: var(--Text-Font);
+  font-family: var(--Text-Font);
 }
 
 .blog-image {
-    box-shadow: 2px 2px 5px darkgray;
+  box-shadow: 2px 2px 5px darkgray;
 }
 
 #blogContainer {
-    background-color: var(--BG-Color);
-    padding: 1em 1em 1em 1em;
-    margin-bottom: 1.5em;
+  background-color: var(--BG-Color);
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1.5em;
 }
 
 /* SPEECH BUBBLES */
 
 .box2 {
-    width: 300px;
-    margin: 50px auto;
-    border: 3px solid var(--Lighter-Green);
-    padding: 20px;
-    text-align: center;
-    font-weight: 900;
-    /* color: #00bfb6; */
-    font-family: var(--Title-Font);
-    position: relative;
+  /* width: 300px; */
+  margin: 50px auto;
+  border: 3px solid var(--Lighter-Green);
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  /* color: #00bfb6; */
+  font-family: var(--Title-Font);
+  position: relative;
 }
 
 /* speech bubble 9 */
 
 .sb9:before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid var(--Lighter-Green);
-    border-bottom: 10px solid transparent;
-    right: 50%;
-    bottom: -23px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--Lighter-Green);
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -23px;
 }
 
 .sb9:after {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #fff;
-    border-bottom: 10px solid transparent;
-    right: 50%;
-    bottom: -18px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -18px;
 }
 
 /* ------------------------------------------ */
@@ -290,88 +291,88 @@ width: 100%; */
 /* // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-    #videoTitle {
-        font-size: 2.25em;
-        /* border-bottom: var(--Logo-Green) solid 1px; */
-    }
-    .calendarTitle {
-        font-size: 3em;
-    }
-    .calendarText {
-        font-size: 1.75em;
-    }
+  #videoTitle {
+    font-size: 2.25em;
+    /* border-bottom: var(--Logo-Green) solid 1px; */
+  }
+  .calendarTitle {
+    font-size: 3em;
+  }
+  .calendarText {
+    font-size: 1.75em;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    #videoTextMobileContainer {
-        display: none;
-    }
-    #videoMainText {
-        font-size: 1em;
-        display: block;
-    }
-    #videoButton {
-        display: block;
-    }
-    #videoTitle {
-        font-weight: bold;
-    }
-    .mission-font {
-        font-size: 1.35em;
-    }
-    .mission-title {
-        font-size: 3em;
-    }
+  #videoTextMobileContainer {
+    display: none;
+  }
+  #videoMainText {
+    font-size: 1em;
+    display: block;
+  }
+  #videoButton {
+    display: block;
+  }
+  #videoTitle {
+    font-weight: bold;
+  }
+  .mission-font {
+    font-size: 1.35em;
+  }
+  .mission-title {
+    font-size: 3em;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .calendarTitle {
-        font-size: 2em;
-    }
-    .calendarText {
-        font-size: 1.25em;
-    }
-    #mission-logo {
-        width: 25%;
-        height: auto;
-    }
-    .mission-font {
-        font-size: 1.15em;
-    }
-    .mission-title {
-        font-size: 2.5em;
-    }
+  .calendarTitle {
+    font-size: 2em;
+  }
+  .calendarText {
+    font-size: 1.25em;
+  }
+  #mission-logo {
+    width: 25%;
+    height: auto;
+  }
+  .mission-font {
+    font-size: 1.15em;
+  }
+  .mission-title {
+    font-size: 2.5em;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    #videoTitle {
-        font-size: 2.5em;
-    }
-    #videoMainText {
-        font-size: 1.25em;
-        margin-bottom: 50px;
-    }
-    #videoTextContainer {
-        position: absolute;
-        bottom: 20%;
-        left: 0;
-    }
-    .mission-font {
-        font-size: 1.35em;
-    }
-    .mission-title {
-        font-size: 3em;
-    }
+  #videoTitle {
+    font-size: 2.5em;
+  }
+  #videoMainText {
+    font-size: 1.25em;
+    margin-bottom: 50px;
+  }
+  #videoTextContainer {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+  }
+  .mission-font {
+    font-size: 1.35em;
+  }
+  .mission-title {
+    font-size: 3em;
+  }
 }
 
 @media (min-width: 1600px) {
-    #videoTitle {
-        font-size: 3.25em;
-    }
+  #videoTitle {
+    font-size: 3.25em;
+  }
 }
