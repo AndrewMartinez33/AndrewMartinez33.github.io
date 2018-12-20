@@ -210,7 +210,73 @@
         />
       </div>
       <main>
-        <div class="container mt-5 mb-5 border-bottom logo-green text-center"><h1 class="title-font">Locations</h1></div>
+          <div class="container-fluid d-flex justify-content-center px-2">
+              <section class="section col-lg-8">        
+                <!--Section heading-->
+                <div class="pb-5">
+                  <!--Section description-->  
+                  <div class="row d-flex justify-content-center px-1">
+                    <!--Grid column-->
+                    <div class=" mb-md-0 mb-5 shadow p-5 contactFormContainer">
+                      <p class="contactFormTitle contactHeaderHello m-0">Hello,</p>
+                      <p class="contactFormTitle m-0">We'd Love to Hear From You.</p>
+                      <p class="contactFormTitle pb-3">Send Us a Message</p>
+                      <p id="contactFormText" class="px-2 pb-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                      matter of hours to help you.</p>
+                      <form class="" id="contact-form" name="contact-form" action="https://formspree.io/info@desiserve.org" method="POST">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control pt-5 pb-1">
+                                  <label for="name">Name</label>
+                                </div>
+                              </div>
+                              <!--Grid column-->
+                              <!--Grid column-->
+                              <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control pt-5 pb-1">
+                                  <label for="email">Email</label>
+                                </div>
+                              </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                        <!--Grid row-->
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="md-form mb-0">
+                              <textarea type="text" id="subject" rows="1" name="subject" class="form-control md-textarea pt-5 pb-1"></textarea>
+                              <label for="subject">Subject</label>
+                            </div>
+                            </div>
+                          </div>
+                        <!--Grid row-->
+                        <!--Grid row-->
+                        <div class="row">
+                          <!--Grid column-->
+                          <div class="col-md-12">
+                            <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea pt-5 pb-1"></textarea>
+                              <label for="message">Your message</label>
+                            </div>  
+                          </div>
+                        </div>
+                        <!--Grid row-->
+                        <div class="text-center text-md-left">
+                        <button type="submit" class="btn btn-danger text-white">Send</a>
+                      </div>
+                        </form>
+                    <div class="status"></div>
+                  </div>
+                  <!--Grid column-->
+                  
+                  </div>
+                </section>
+            </div>
+        <div class="container mt-5 mb-5 border-bottom logo-green text-center"><h1 class="title-font font-weight-bold">Locations</h1></div>
         <div class="container-fluid px-md-5 mb-5">
           <div class="d-flex flex-row flex-wrap justify-content-around align-items-center border-bottom mb-5">
           <div class="col-sm-5 col-lg-3 align-self-center mb-4">
@@ -283,72 +349,7 @@
           </div>
         </div>
         </div>
-        <div class="container-fluid d-flex justify-content-center px-2">
-          <section class="section col-lg-8">        
-            <!--Section heading-->
-            <div class="pb-5">
-              <!--Section description-->  
-              <div class="row d-flex justify-content-center px-1">
-                <!--Grid column-->
-                <div class=" mb-md-0 mb-5 shadow p-5 contactFormContainer">
-                  <p class="contactFormTitle contactHeaderHello m-0">Hello,</p>
-                  <p class="contactFormTitle m-0">We'd Love to Hear From You.</p>
-                  <p class="contactFormTitle pb-3">Send Us a Message</p>
-                  <p id="contactFormText" class="px-2 pb-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-                  matter of hours to help you.</p>
-                  <form class="" id="contact-form" name="contact-form" action="https://formspree.io/info@desiserve.org" method="POST">
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                              <input type="text" id="name" name="name" class="form-control pt-5 pb-1">
-                              <label for="name">Name</label>
-                            </div>
-                          </div>
-                          <!--Grid column-->
-                          <!--Grid column-->
-                          <div class="col-md-6">
-                            <div class="md-form mb-0">
-                              <input type="text" id="email" name="email" class="form-control pt-5 pb-1">
-                              <label for="email">Email</label>
-                            </div>
-                          </div>
-                        <!--Grid column-->
-                    </div>
-                    <!--Grid row-->
-                    <!--Grid row-->
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="md-form mb-0">
-                          <textarea type="text" id="subject" rows="1" name="subject" class="form-control md-textarea pt-5 pb-1"></textarea>
-                          <label for="subject">Subject</label>
-                        </div>
-                        </div>
-                      </div>
-                    <!--Grid row-->
-                    <!--Grid row-->
-                    <div class="row">
-                      <!--Grid column-->
-                      <div class="col-md-12">
-                        <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea pt-5 pb-1"></textarea>
-                          <label for="message">Your message</label>
-                        </div>  
-                      </div>
-                    </div>
-                    <!--Grid row-->
-                    <div class="text-center text-md-left">
-                    <button type="submit" class="btn btn-danger text-white">Send</a>
-                  </div>
-                    </form>
-                <div class="status"></div>
-              </div>
-              <!--Grid column-->
-              
-              </div>
-            </section>
-        </div>
+        
       </main>
     </div>
     <!-- ----------- -->

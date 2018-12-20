@@ -1,45 +1,45 @@
-:root{
-    --Logo-Green : #38A42C;
+:root {
+    --Logo-Green: #38a42c;
     --Light-Green: #56bb4b;
-    --Lighter-Green: #82D679;
-    --Accent-Red: #E13026;
-    --Accent-Gold: #FFBF00;
-    --Text-Font: 'Noto Serif', serif;
-    --Title-Font:'Prata', serif;
-    --BG-Color: #FEFEFA;
-  }
+    --Lighter-Green: #82d679;
+    --Accent-Red: #e13026;
+    --Accent-Gold: #ffbf00;
+    --Text-Font: "Noto Serif", serif;
+    --Title-Font: "Prata", serif;
+    --BG-Color: #fefefa;
+}
 
-.carousel{
+.carousel {
     font-family: var(--Title-Font);
 }
 
-#carousel-Title-Text{
+#carousel-Title-Text {
     font-size: 3em;
     font-family: var(--Title-Font);
     /* color: var(--Light-Green); */
 }
 
-.gallery-header-link{
-    color: var(--Light-Green);
+.gallery-header-link {
+    /* color: var(--Light-Green); */
     font-family: var(--Text-Font);
     font-size: 1.1em;
     font-weight: bold;
 }
 
-.gallery-text{
+.gallery-text {
     font-family: var(--Text-Font);
 }
 
-#caption-Container{
+#caption-Container {
     height: 95%;
 }
 
-.youTubeLink{
+.youTubeLink {
     font-family: var(--Title-Font);
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
-.youTubeImg{
+.youTubeImg {
     width: 40px;
 }
 
@@ -50,36 +50,35 @@
 
 .image-text {
     font-family: var(--Text-Font);
-    color: darkgray
+    color: darkgray;
 }
 
-
 /* // Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
-    #carousel-Title-Text{
+    #carousel-Title-Text {
         font-size: 3em;
     }
-  
 }
 
 /* // Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
-    #carousel-Title-Text{
+    #carousel-Title-Text {
         font-size: 4.5em;
     }
 }
 
 /* // Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
-    #carousel-Title-Text{
+    #carousel-Title-Text {
         font-size: 6em;
     }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {}
 
-}
+@media (min-width: 1600px) {}
