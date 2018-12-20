@@ -157,7 +157,7 @@ width: 100%; */
 
 .peopleHelpNames {
   font-family: var(--Title-Font);
-  color: rgb(70, 150, 255);
+  color: var(--Light-Green);
 }
 
 .peopleHelpText {
@@ -183,7 +183,7 @@ width: 100%; */
   width: 320px;
   height: 400px;
   background-color: var(--BG-Color);
-  background-image: url(../images/bg-amber.png);
+  background-image: url(../images/bg-red.png);
   background-repeat: no-repeat;
 }
 
