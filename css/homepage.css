@@ -68,6 +68,11 @@ width: 100%; */
   right: 0;
 }
 
+homepage-video {
+  background-image: url(/images/colorGroupImage.jpg);
+  background-size: 100%;
+}
+
 #videoTextContainer {
   position: absolute;
   bottom: 16%;
