@@ -157,7 +157,7 @@ width: 100%; */
 
 .peopleHelpNames {
   font-family: var(--Title-Font);
-  color: var(--Light-Green);
+  color: rgb(70, 150, 255);
 }
 
 .peopleHelpText {
@@ -172,6 +172,7 @@ width: 100%; */
 .calendarTitle {
   font-family: var(--Title-Font);
   font-size: 2em;
+  color: rgb(70, 150, 255);
 }
 
 .calendarText {
