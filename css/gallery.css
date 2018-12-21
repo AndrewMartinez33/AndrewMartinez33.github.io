@@ -13,6 +13,32 @@
     font-family: var(--Title-Font);
 }
 
+.carousel-overlay-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.carousel-overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    opacity: 0.35;
+}
+
+.control-arrows {
+    z-index: 15;
+}
+
 #carousel-Title-Text {
     font-size: 3em;
     font-family: var(--Title-Font);
@@ -32,6 +58,14 @@
 
 #caption-Container {
     height: 95%;
+}
+
+.caption-title {
+    text-shadow: 2px 2px 2px black;
+}
+
+.caption-text {
+    text-shadow: 2px 2px 2px black;
 }
 
 .youTubeLink {
@@ -67,6 +101,12 @@
     #carousel-Title-Text {
         font-size: 4.5em;
     }
+    .caption-title {
+        font-size: 4.5em;
+    }
+    .caption-text {
+        font-size: 1.25em;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -74,6 +114,12 @@
 @media (min-width: 992px) {
     #carousel-Title-Text {
         font-size: 6em;
+    }
+    .caption-title {
+        font-size: 6em;
+    }
+    .caption-text {
+        font-size: 1.5em;
     }
 }
 
