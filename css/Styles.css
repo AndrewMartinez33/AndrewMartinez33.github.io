@@ -169,8 +169,11 @@ ul {
 
 /* ------------------------------------- */
 
+.navbar-collapse {
+  z-index: 20;
+}
+
 nav {
-  z-index: 1000;
   background-color: white;
   /* height: 72px; */
 }
