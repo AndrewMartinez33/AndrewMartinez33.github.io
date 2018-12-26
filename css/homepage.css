@@ -246,46 +246,26 @@ homepage-video {
   margin-bottom: 1.5em;
 }
 
-/* SPEECH BUBBLES */
+/* QUOTES */
 
-.box2 {
-  /* width: 300px; */
-  margin: 50px auto;
-  border: 3px solid var(--Lighter-Green);
-  padding: 20px;
-  text-align: center;
-  font-weight: 900;
-  /* color: #00bfb6; */
-  font-family: var(--Title-Font);
-  position: relative;
+.quote-box {
+  /* width: 25%; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 7em;
+  font-weight: bold;
+  color: var(--Lighter-Green);
+  line-height: 100%;
 }
 
-/* speech bubble 9 */
-
-.sb9:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid var(--Lighter-Green);
-  border-bottom: 10px solid transparent;
-  right: 50%;
-  bottom: -23px;
+.quote-text-box {
+  width: 80%;
+  padding-right: 10px;
+  border-right: solid 1px var(--Lighter-Green);
 }
 
-.sb9:after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid transparent;
-  right: 50%;
-  bottom: -18px;
+.quote-text {
+  text-align: left;
+  font-size: 1em;
 }
 
 /* ------------------------------------------ */
