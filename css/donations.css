@@ -1,130 +1,136 @@
 :root {
-    --Logo-Green: #38A42C;
-    --Light-Green: #56bb4b;
-    --Lighter-Green: #82D679;
-    --Accent-Red: #E13026;
-    --Accent-Gold: #FFBF00;
-    --Text-Font: 'Noto Serif', serif;
-    --Title-Font: 'Prata', serif;
-    --BG-Color: #FEFEFA;
+  --Logo-Green: #38a42c;
+  --Light-Green: #56bb4b;
+  --Lighter-Green: #82d679;
+  --Accent-Red: #e13026;
+  --Accent-Gold: #ffbf00;
+  --Text-Font: "Noto Serif", serif;
+  --Title-Font: "Prata", serif;
+  --BG-Color: #fefefa;
+}
+
+/* image sliders */
+
+.control-arrows {
+  z-index: 15;
 }
 
 #topImg {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #chevron {
-    width: 55px;
+  width: 55px;
 }
 
 #chevronText {
-    font-family: var(--Title-Font);
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
+  font-family: var(--Title-Font);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 #donationsHeaderTitle {
-    font-family: var(--Title-Font);
-    font-size: 3.5em;
-    font-weight: bold;
+  font-family: var(--Title-Font);
+  font-size: 3em;
+  font-weight: bold;
 }
 
 .donationsHeaderText {
-    font-family: var(--Title-Font);
-    font-weight: bold;
-    font-size: 2em;
-    margin: 0 4px 0 4px;
-    padding: 0 2px 0 2px;
+  font-family: var(--Title-Font);
+  font-weight: bold;
+  font-size: 1.75em;
+  margin: 0 4px 0 4px;
+  padding: 0 2px 0 2px;
 }
 
 #heart {
-    max-width: 150px;
+  max-width: 100px;
 }
 
 #donationTopButton {
-    margin-bottom: 0;
-    margin-top: 30px;
+  margin-bottom: 0;
+  margin-top: 30px;
 }
 
 .paypal {
-    width: 90px;
+  width: 90px;
 }
 
 .quoteText {
-    font-family: var(--Title-Font);
-    font-size: 1.25rem;
+  font-family: var(--Title-Font);
+  font-size: 1.25rem;
 }
 
 .quoteContainer-green {
-    background-color: #19A974;
+  background-color: #19a974;
 }
 
 .quoteContainer-blue {
-    background-color: rgb(70, 150, 255);
+  background-color: rgb(70, 150, 255);
 }
 
 .quoteContainer-red {
-    background-color: #e85a4f;
+  background-color: #e85a4f;
 }
 
 #whyDonateImg {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 #whyDonateTitle {
-    font-family: var(--Title-Font);
-    font-size: 2.5em;
+  font-family: var(--Title-Font);
+  font-size: 2.5em;
 }
 
 .peopleSectionTitle {
-    font-family: var(--Title-Font);
-    font-size: 2.5em;
-    border-bottom: black solid 1px;
-    border-top: var(--Logo-Green) solid 1px;
+  font-family: var(--Title-Font);
+  font-size: 2.5em;
+  border-bottom: black solid 1px;
+  border-top: var(--Logo-Green) solid 1px;
 }
 
 .peopleSectionText {
-    font-family: var(--Text-Font);
+  font-family: var(--Text-Font);
 }
 
 .firstContainer {
-    width: 400px;
-    height: 300px;
-    background-image: url(../images/bg-green.png);
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/bg-green.png);
 }
 
 .secondContainer {
-    width: 400px;
-    height: 300px;
-    background-image: url(../images/bg-red.png);
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/bg-red.png);
 }
 
 .thirdContainer {
-    width: 400px;
-    height: 300px;
-    background-image: url(../images/bg-amber.png);
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/bg-amber.png);
 }
 
 .learnMoreTitle {
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-    font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .learnMoreText {
-    font-family: var(--Text-Font);
+  font-family: var(--Text-Font);
 }
 
 #backToTop {
-    font-family: var(--Title-Font);
-    font-size: 1.2em;
+  font-family: var(--Title-Font);
+  font-size: 1.2em;
 }
 
 .dancingFont {
-    font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 /* ------------------------------------------ */
@@ -148,10 +154,10 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    .quoteText {
-        font-family: var(--Title-Font);
-        font-size: 2.5rem;
-    }
+  .quoteText {
+    font-family: var(--Title-Font);
+    font-size: 1.75rem;
+  }
 }
 
 @media (min-width: 1400px) {}

@@ -93,13 +93,13 @@ ul {
 }
 
 .sponsors-logo {
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
 }
 
 .supporters-logo {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .list-styling-circle {
@@ -436,6 +436,14 @@ nav {
   .highlight-container {
     width: 225px;
   }
+  .sponsors-logo {
+    width: 70px;
+    height: 70px;
+  }
+  .supporters-logo {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -494,5 +502,4 @@ nav {
   }
 }
 
-@media (min-width: 1600px) {
-}
+@media (min-width: 1600px) {}
