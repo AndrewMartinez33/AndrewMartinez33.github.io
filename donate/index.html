@@ -7,6 +7,29 @@
       name="description"
       content="D.E.S.I. is a nonprofit organization that relies on donations to serve the community. Donations allow us to provide food, therapy, and training to those who need it most."
     />
+    <!-- Global site tag (gtag.js) - Google Ads: 766174897 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-766174897"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-766174897');
+    </script>
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-766174897/6vwhCMvZqpQBELHNq-0C',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -217,7 +240,7 @@
         />
       </div>
       <main>
-        <article>
+        
           <div
             id=""
             class="container-fluid d-flex flex-row flex-row flex-wrap align-items-center justify-content-center px-0"
@@ -253,6 +276,7 @@
                 <a
                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUMWCF492AKC"
                   target="_blank"
+                  onclick="gtag_report_conversion()"
                   ><button type="button" class="btn btn-danger shadow-lg text-font">
                     Donate to DESI
                   </button></a
@@ -403,6 +427,7 @@
               <a
                 href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUMWCF492AKC"
                 target="_blank"
+                onclick="gtag_report_conversion()"
                 ><button
                   type="button"
                   class="btn btn-danger btn-lg shadow-lg text-font"
@@ -640,6 +665,7 @@
               <a
                 href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUMWCF492AKC"
                 target="_blank"
+                onclick="gtag_report_conversion()"
                 ><button
                   type="button"
                   class="btn btn-danger btn-lg shadow-lg text-font"
@@ -651,7 +677,7 @@
                 <img class="paypal" src="../images/paypal.svg" alt="" />
               </div>
             </div>
-        </article>
+        
 
         
 
